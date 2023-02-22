@@ -1,0 +1,105 @@
+<! DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<meta id="viewport" content="width=device-width, initial-scale=1.0">
+		<meta id="keywords" content="HTMLtable,form">
+		<link rel="stylesheet" href="css\style.css">
+		<title>psuedo class selector and psuedo element</title>
+	</head>
+	<body>
+		<table class="hi" border="2">
+			<caption style="font-size:40px";> psuedo class selector and psuedo element </caption>
+			
+			<thead>
+			
+				<th>Pseudo-element/class</th>
+				<th>Code</th>
+				<th>Output</th>
+		
+			</thead>
+			
+			<tbody>
+			 
+				 <tr>
+					<td>first-line</td>
+					<td>.android::first-line {
+					color: #ff0000;
+					}</td>
+					<td><p class="android">Chitraruvi is a small falls lying adjacent to the kuttralam main falls. A walk up the hill from Chitraruvi leads to other falls like Shenbaga Devi and Thenaruvi. Tourists can have a milder shower here as the water flow is very thin. There are facilities for men and women to bathe separately.</p></td>
+				</tr>
+				
+				
+				<tr>
+					<td>first-letter</td>
+					<td>.android1::first-letter {
+					color: yellow</td>
+					<td><p class="android1">Chitraruvi is a small falls lying adjacent to the kuttralam main falls. A walk up the hill from Chitraruvi leads to other falls like Shenbaga Devi and Thenaruvi. Tourists can have a milder shower here as the water flow is very thin. There are facilities for men and women to bathe separately.</p></td>
+				</tr>
+				
+				
+				<tr>
+					<td>before</td>
+					<td>.class3::before {
+					content: url('https://www.iconpacks.net/icons/1/free-icon-phone-ringing-14.png');
+					}</td>
+					<td><p class="class3">Ringing..</p></td>
+				</tr>
+				
+				
+				
+				<tr>
+					<td>after</td>
+					<td>.class4::after {
+					content: url('https://www.iconpacks.net/icons/2/free-icon-tiktok-logo-4501.png');
+					}</td>
+					<td><p class="class4">Music..</p></td>
+				</tr>
+				
+				
+				
+				
+				<tr>
+					<td>focus</td>
+					<td>.class4:focus {
+					color:red;
+					background-color:pink;
+					}</td>
+					<td><input class="class4" type="text"></td>
+				</tr>
+				
+				
+				
+				<tr>
+					<td>hover</td>
+					<td>.smile:hover {
+					transform:scale(1.8);
+					}</td>
+					<td><img class="smile" src="image/image.png" alt="loadind"></td>
+				</tr>
+				
+				
+				<tr>
+					<td>visited</td>
+					<td>a:visited {
+					color: pink;
+					}</td>
+					<td><a href="https://www.flipkart.com/">Link 1</a><br>
+					<a href="https://www.amazon.in/">Link 2</a></td>
+				</tr>
+				
+				
+				
+				<tr>
+					<td>link</td>
+					<td>.happy:link {
+					color:gold;
+					}</td>
+					<td><a class="happy" href="https://www.instagram.com">Link 1</a><br>
+					<a class="happy" href="https://www.facebook.com/html/">Link 2</a></td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
+		

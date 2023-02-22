@@ -1,0 +1,66 @@
+.hi 
+	{
+	width:100%;
+	border-collapse: collapse;
+	border-color: black;
+	font-size:20px;
+	}
+
+
+td 
+	{
+	text-align: center;
+    padding: 8px;													
+    }
+
+ tr:nth-child(odd) 
+	{
+    background-color: DodgerBlue;
+	}
+
+th 
+	{
+    padding: 8px;
+	background-color:LightGray;
+	}	
+	  
+.android::first-line 
+	{
+	color: #ff0000;
+	}
+
+.android1::first-letter 
+	{
+	color: yellow;
+	}
+	
+.class3::before 
+	{
+	content: url('https://www.iconpacks.net/icons/1/free-icon-phone-ringing-14.png');
+	}
+
+.class4::after 
+	{
+	content: url('https://www.iconpacks.net/icons/2/free-icon-tiktok-logo-4501.png');
+	}
+	
+.class4:focus 
+	{
+	color:red;
+	background-color:pink;
+	}
+	
+.smile:hover 
+	{
+	transform:scale(1.8);
+	}
+
+a:visited 
+	{
+	color:lime;
+	}
+
+.happy:link 
+	{
+	color:gold;
+	}
